@@ -1,5 +1,5 @@
 fun main()
 {
-  var fullname : String ="my name is"  
+  var fullname : String ="my name is"  // define Data Type also
   var name ="vivek"
 }
