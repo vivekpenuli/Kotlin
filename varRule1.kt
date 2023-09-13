@@ -14,6 +14,8 @@ println(${name})
 name ="hy"
 println(${name})
 
+// Same rule for val . Just it can be initalise one time only .
+
 --------------------------------------------
 
  
