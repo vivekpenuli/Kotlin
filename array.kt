@@ -20,6 +20,9 @@ fun main()
  val o =my(arrayOf(1,2,3,4,5))      // Array function call 
 }
 
+
+//----------------------------------------
+
 fun go(number : Array<Int>):Int
 {
    var sum =0
