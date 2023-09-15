@@ -31,3 +31,19 @@ d.outpuname()
 // the roll no is 56}
 
 
+//---------------------------------------------------Case 2------------------------------>
+fun main()
+{
+    val c= abc2("vivek",23)
+     val d= abc2("kapil",44)
+    c.outputname()
+d.outpuname()
+
+}
+
+// you eneter name is correct
+// enter correct name
+// the name is kapil
+// the roll no is 56}
+// the name is vivek
+// the roll no is 23}
