@@ -6,7 +6,7 @@ fun main()
     val a2= Array<Int>(5){0}
 //---------------------------------------------------------
   
-   a1.forEach { println(it) }           
+   a1.forEach { println(it) }           // These 2 are ways for array traversing
   
    for (i in myArr)
    {
