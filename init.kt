@@ -3,7 +3,7 @@ class abc2(var name :String, var age:Int){
         if(name.equals("vivek"))
             println("you eneter name is correct")
         else
-            println("enter correct name")
+            println("enter correct name wrong")
     }
 
     fun outputname()
@@ -17,6 +17,17 @@ fun main()
 {
     val c= abc2("vivek",23)
     c.outputname()
-    val d= abc2("kapil",56)
-    d.outputname()
+    val d= abc2("kapil",44)
+d.outpuname()
+
 }
+
+---------------------------- Note : when object call then init is called ----------------------------------
+// you eneter name is correct
+// the name is vivek
+// the roll no is 23}
+// enter correct name wrong
+// the name is kapil
+// the roll no is 56}
+
+
