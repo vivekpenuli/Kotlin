@@ -23,7 +23,7 @@ fun main()
 
 //----------------------------------------
 
-fun go(number : Array<Int>):Int
+fun go(number : Array<Int>):Int              // Array Returning single value
 {
    var sum =0
    for( i in number)
@@ -33,7 +33,7 @@ fun go(number : Array<Int>):Int
    return sum
 }
 
-fun my(number :Array<Int>):Array<Int>
+fun my(number :Array<Int>):Array<Int>                 // Array returning entire array
 {
     var sum =0
     for(i in number)
