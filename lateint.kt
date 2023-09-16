@@ -12,9 +12,9 @@ a="hello woeld"
 
 
 //------------------------------------//
-Now the question is what is the difference then 
+// Now the question is what is the difference then 
 
-var a:String 
-a= 23
+// var a:String 
+// a= 23
 
-here also doing lateinit
+// here also doing lateinit
