@@ -1,7 +1,7 @@
 fun main()
 {
 
-    lateinit var myProperty: String
+    lateinit var myProperty: String          // Need to define the datatype also
     myProperty="hello"
     var a : String
 a="hello woeld"
