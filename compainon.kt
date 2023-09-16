@@ -17,5 +17,5 @@ fun main() {
     a.hello()        // able to acess only outside function .
                       // class objects are not allowed to acess memeber function and data memeber of class
                        
-    vivek.hello()
+    vivek.hello()                // companion data member and memeber function can acess only via class name
 }
