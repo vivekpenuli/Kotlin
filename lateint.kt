@@ -9,3 +9,12 @@ a="hello woeld"
     println("hello a is ${a}")
 
 }
+
+
+//------------------------------------//
+Now the question is what is the difference then 
+
+var a:String 
+a= 23
+
+here also doing lateinit
