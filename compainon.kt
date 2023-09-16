@@ -6,14 +6,14 @@ class vivek{
             println("hello i am companio called me ${a}")
         }
     }
-    fun hello()
+    fun hello()       // can have same function name outside comanion block
     {
         println("so i am ")
     }
 }
 
 fun main() {
-    val a=vivek()
+    val a=vivek()    
     a.hello()
     vivek.hello()
 }
