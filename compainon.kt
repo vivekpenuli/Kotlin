@@ -14,6 +14,8 @@ class vivek{
 
 fun main() {
     val a=vivek()    
-    a.hello()
+    a.hello()        // able to acess only outside function .
+                      // class objects are not allowed to acess memeber function and data memeber of class
+                       
     vivek.hello()
 }
