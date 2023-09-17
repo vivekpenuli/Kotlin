@@ -1,19 +1,24 @@
-open class a{
-    fun run()
+open class A{
+   open fun run()
     {
-        println("this is class a ")
+        println("i am class a ")
     }
 }
-class B: a(){
-    fun op()
+class Bclass:A(){
+    override fun run()
     {
-        println("i am class b")
+        println("i am in class B")
     }
 }
 
 fun main()
 {
-    val o =B()
-    o.run()
-
+    val obj = A()
+    val obj2 = Bclass()
+    obj.run()
+    obj2.run()
 }
+
+//--------------------------Output---------------------//
+i am class a 
+i am in class B
