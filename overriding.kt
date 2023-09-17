@@ -20,5 +20,5 @@ fun main()
 }
 
 //--------------------------Output---------------------//
-i am class a 
-i am in class B
+// i am class a 
+// i am in class B
