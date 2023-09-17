@@ -23,3 +23,15 @@ fun main()
     obj1.display()
     obj1.output()
 }
+
+
+
+
+
+// ---------------------------Output---------------------------
+my name is vivek
+my age is 34
+the name of student is vivek
+the age is 34
+the class is 5th
+the ph is 4556
