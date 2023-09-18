@@ -1,4 +1,4 @@
-??
+
 fun main()
 {
     val age= 30
