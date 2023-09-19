@@ -1,5 +1,5 @@
 data class student(var name:String,
-    var age:Int,
+    var age:Int ,
     var ph:Int,
     var clas:String
     )
