@@ -13,7 +13,7 @@ class b2: a1(){
 
 fun main()
 {
-    val obje1= a1()   // Not object possible of abstract class
+ //   val obje1= a1()   // Not object possible of abstract class
     val obj2=b2()
     obj2.hello()
  obj2.run()
