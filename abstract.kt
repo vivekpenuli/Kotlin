@@ -1,4 +1,4 @@
-abstract class a1{
+abstract class a1{      // No need to ue Open Keyword here
     fun run()
     {
 
