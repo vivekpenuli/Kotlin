@@ -1,4 +1,4 @@
-interface A3{
+sinterface A3{
     fun check()
     {
         println("hello")
