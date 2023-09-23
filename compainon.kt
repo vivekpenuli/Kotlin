@@ -1,4 +1,3 @@
-// Illustrate Companion class
 class vivek{
     companion object{
         var a=0
