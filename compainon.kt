@@ -1,5 +1,7 @@
+// companion object//
 class vivek{
     companion object{
+    
         var a=0 
         fun hello()
         {
