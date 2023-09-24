@@ -1,4 +1,4 @@
-// companion object//
+
 class vivek{
     companion object{
     
