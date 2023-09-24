@@ -1,5 +1,5 @@
 
-class vivek{
+//class vivek{
     companion object{
     
         var a=0 
