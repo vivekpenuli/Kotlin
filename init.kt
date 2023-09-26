@@ -4,5 +4,5 @@ class student{
 }
 fun main()
 {
-  
+  val a =studnet()
 }
