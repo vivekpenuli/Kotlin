@@ -12,7 +12,7 @@ mixedList.add("hello")
     val st1= Stack<Char>()
     val e ='a'
     val r='a'
-    println("the name is ${e==r}")
+    println("the name is ${e==r}")        // character comparsiosn
     val string1= "hello"
     val string2 ="by"
     val mp = mutableMapOf<String,Int>()
