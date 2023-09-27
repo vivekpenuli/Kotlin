@@ -6,7 +6,7 @@ fun main()
     println("${a.contains(55)}")
     val b = mutableListOf(1,2,3,4)            // Non updatable array in java
 //val c = mutableListOf<*>()
-    val mixedList = mutableListOf<Any>()
+    val mixedList = mutableListOf<Any>()        // Array of any datatype
 mixedList.add("hello")
     mixedList.add(34)
     val st1= Stack<Char>()
