@@ -4,7 +4,7 @@ fun main()
 {
     val a= arrayOf(12,34,55)    // Array in kotlin
     println("${a.contains(55)}")
-    val b = mutableListOf(1,2,3,4)
+    val b = mutableListOf(1,2,3,4)            // Non updatable array in java
 //val c = mutableListOf<*>()
     val mixedList = mutableListOf<Any>()
 mixedList.add("hello")
