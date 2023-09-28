@@ -3,7 +3,7 @@ var name
 name ="hy"
 println(${name})
 
--------------------
+---------------------------------
  // such type of var declaration is not allowed [ This variable must either have a type annotation or be initialized ]
 
 
