@@ -1,1 +1,70 @@
+<!-- recycler_item.xml -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Image on the left -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/your_image_resource"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image_description" />
+
+        <!-- Right-side LinearLayout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp">
+
+            <!-- First TextView -->
+            <TextView
+                android:id="@+id/textViewFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Text"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+            <!-- Second TextView -->
+            <TextView
+                android:id="@+id/textViewSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second Text"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="4dp" <!-- Add margin top here -->
+                />
+
+        </LinearLayout>
+
+        <!-- Middle TextView -->
+        <TextView
+            android:id="@+id/textViewMiddle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Middle Text"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
 
