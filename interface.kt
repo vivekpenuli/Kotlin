@@ -1,5 +1,5 @@
 
-interface A3{
+interface A3{         //Define Intefrace like this
     fun check()
     {
         println("hello")
