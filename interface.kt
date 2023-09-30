@@ -6,7 +6,7 @@ interface A3{         //Define Intefrace like this
     }
     fun go()
 }
-class B3:A3
+class B3:A3               // Extend interface 
 {
     override fun go() {
 println("hello")
