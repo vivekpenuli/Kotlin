@@ -1,3 +1,4 @@
+// Used to act as a base class to get and set the value into variable
 data class student(var name:String,
     var age:Int ,
     var ph:Int,
