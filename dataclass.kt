@@ -4,7 +4,7 @@ data class student(var name:String,
     var ph:Int,
     var clas:String
     )
-
+// No need to create any get and set function while dealing with data class in kotlin
 fun main()
 {
     val obj = student("vivek",12,6789,"5th")
