@@ -1,5 +1,5 @@
 
-fun main()
+fun main() // Main funvtion
 {
     val myArr= arrayOf(1,2,3,4)     // These 3 line denote different way of array declaration 
     val a1= IntArray(5)
