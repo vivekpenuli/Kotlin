@@ -8,7 +8,7 @@ fun main() // Main funvtion
   
    a1.forEach { println(it) }           // These 2 are ways for array traversing
   
-   for (i in myArr)
+   for (i in myArr)        //Traverse the array using loop
    {
        println("the elements are ${i}")
    }
