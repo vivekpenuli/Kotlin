@@ -1,5 +1,5 @@
 import java.util.Stack  // from java collection
-
+// Can use java collection framework in kotlin
 fun main()
 {
     val a= arrayOf(12,34,55)    // Array in kotlin
