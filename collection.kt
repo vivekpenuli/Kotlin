@@ -9,7 +9,7 @@ fun main()
     val mixedList = mutableListOf<Any>()        // Array of any datatype
 mixedList.add("hello")
     mixedList.add(34)
-    val st1= Stack<Char>()
+    val st1= Stack<Char>() // Stack structure in kotlin
     val e ='a'
     val r='a'
     println("the name is ${e==r}")        // character comparsiosn
