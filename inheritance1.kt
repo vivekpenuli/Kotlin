@@ -17,3 +17,9 @@ fun main()
     abc.show();
     abc.show2()
 }
+
+
+/*
+in kotlin by default class are final and htey cant be inherited without using open keyword.
+to inherit we need to make parent class opne in order to allow inheritance
+*/
