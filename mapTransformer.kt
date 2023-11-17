@@ -7,7 +7,7 @@ fun main() {
            value*12
         }
         else{
-            value
+            value       // this denote that for else part i want just that item to reamin presetn unchanged . if i dont do this it will not show that item
         }
     }
     
@@ -17,3 +17,8 @@ fun main() {
     }
     
 }
+
+
+/*
+Remember :  you cant do valuw =value * 12 . you cant use assignment operator with iteratorr varaible
+*/
