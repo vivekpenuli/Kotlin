@@ -11,3 +11,8 @@ name.forEach{
     
     
 }
+
+
+/*
+In kotlin you can declare an empty list map or any other thing just need to specify the data type
+*/
