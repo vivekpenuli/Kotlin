@@ -13,3 +13,9 @@ mp.forEach{
 
 }
 }
+
+
+/*
+Note: val mp = mutableMapOf<Int,listOf<Int>>()
+this is not allowed , you have to use  like we do in java
+*/
